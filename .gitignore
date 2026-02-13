@@ -1,0 +1,5 @@
+variables
+templates/packer_cache
+templates/hyperv*
+
+

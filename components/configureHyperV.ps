@@ -1,0 +1,5 @@
+# Configure WinRM
+Set-Item WSMan:\localhost\Client\TrustedHosts -Value "*" -Force
+
+# Verify configuration
+Get-Service WinRM | Select-Object Status
